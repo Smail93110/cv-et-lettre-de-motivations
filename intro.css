@@ -1,0 +1,56 @@
+    body{
+    margin: 0;
+    padding: 0;
+    background: url(./image/work.jpg);
+    background-size: cover;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-attachment: fixed;
+    list-style: none;
+
+    
+    }
+
+
+.intro{
+
+    
+
+}
+
+h1{
+
+
+text-align: center;
+font-size: 40px;
+padding-top: 230px;
+padding-right: 50%;
+
+
+}
+
+ul{
+font-size: 35px;    
+display: flex;
+margin-left: 17%;
+list-style: none;
+}
+
+
+li{
+margin: 15px;
+
+
+}
+
+button{
+border-radius: 40px;
+font-size: 190%;
+margin-left: 18%;
+background: transparent;
+cursor: pointer;
+font-weight: bold;
+
+}
