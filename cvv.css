@@ -451,7 +451,7 @@ p {
 
 }
 
-img {
+/* img {
 
     cursor: pointer;
     filter: grayscale(1);
@@ -462,4 +462,6 @@ img {
 img:hover {
     filter: grayscale(0);
 
-}
+} */
+
+
