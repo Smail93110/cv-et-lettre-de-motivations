@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./cvv.css">
     <title>CV et Lettre de motivation</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+
 </head>
 
 <body>
@@ -23,17 +25,20 @@
         <span class="lettre">n</span>
         <span class="lettre">t</span>
 
-        <script src="./cv.js"></script>
 
     </div>
     <header>
         <div class="presentation">
-            <h1 id="Acceuil">Ould Bey Smail
-                <hr>
-                Etudiant en programation / Html csss php MysQl
-            </h1>
+            <div class="text-3xl">
+                <h1 id="Acceuil">Ould Bey Smail
+                    <div class="break-normal">
+                       <div class="h-0.5 w-1/4	bg-stone-300	my-1.5			  m-auto		"></div>
+                        Etudiant en programation / Html csss php MysQl
+                    </div>
+                    </div>
+                </h1>
+            </div>
         </div>
-
 
         <nav>
 
@@ -48,13 +53,18 @@
 
         <img src="./image/imagecode.jpg" alt="image" height="" width="1517">
     </header>
+    <script src="./cv.js"></script>
 
 
 
     <div class="connaisance">
         <h1 id="Presentation">Certaines choses a mon sujet</h1>
+        
 
-        <img src="./image/logo code.jpg" alt="image" height="100px">
+            <img class="sm-12 w-16 md:w-32 lg:w-48 m-auto" src="./image/logo code.jpg" alt="image">
+
+
+
         <p>19 ans et fan de programation<br>
             J'aimerais faire mes études dans cette voie, car j'ai toujours aimé <br>l'informatique depuis mon enfance
             <br>et j'aimerais fortement accroître mes connaissances pour plus tard devenir développer web.
@@ -106,7 +116,7 @@
     </div>
 
 
-    
+
 
 </body>
 

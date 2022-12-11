@@ -14,7 +14,6 @@
     }
 
 
-    .intro {}
 
     h1 {
 
@@ -92,3 +91,16 @@
         color: green;
         transform: rotateY(159deg);
     }
+
+
+    /* /* @media screen and (min-width:390px ) {
+        h1{
+         font-size: 29px;
+         margin-left: 35%;
+        }
+      } */
+
+
+
+      
+  

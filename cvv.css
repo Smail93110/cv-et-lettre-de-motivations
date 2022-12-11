@@ -24,6 +24,7 @@ html {
 
 hr {
     width: 28%;
+    margin-right: 20%;
 }
 
 
@@ -37,6 +38,7 @@ nav {
     position: -webkit-sticky;
     position: sticky;
     top: -1px;
+    
 
 
 }
@@ -465,3 +467,17 @@ img:hover {
 } */
 
 
+/* 
+@media screen and (min-width:390px ) {
+    img{
+     width: 106%;
+
+    }
+    a{
+        margin-right: 26px;
+        font-size: 8px;
+    }
+    .image2{
+        min-height: 50%;
+    }
+  }  */
