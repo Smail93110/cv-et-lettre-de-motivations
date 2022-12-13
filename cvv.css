@@ -29,13 +29,12 @@ hr {
 
 
 
-
+/* 
 nav {
 
     background-color: #38383D;
     box-shadow: 0 1px 30px #f41b1b;
     font-weight: bold;
-    position: -webkit-sticky;
     position: sticky;
     top: -1px;
     
@@ -55,14 +54,14 @@ a {
     color: rgb(255, 0, 0);
     transition: box-shadow 0.9s ease-out;
 
-}
+} */
 
-a:hover {
+/* a:hover {
     background-color: rgb(51, 48, 48);
     border-radius: 10px;
     box-shadow: 0 0 19px #ff0000;
     color: red;
-}
+} */
 
 img {
     margin-bottom: 20px;
@@ -128,13 +127,13 @@ h1 {
 }
 
 
-.containerss {
+/* .containerss {
     background-color: rgb(192, 192, 192);
     width: 30%;
     border-radius: 15px;
     margin: auto;
 
-}
+} */
 
 
 p {
@@ -152,6 +151,10 @@ p {
     text-align: right;
     color: white;
     animation: html 5s linear infinite;
+
+    -webkit-animation: 4s linear 0s infinite alternate  html;
+    animation: 4s linear 0s infinite alternate  html;
+
 }
 
 
@@ -162,7 +165,9 @@ p {
     padding: 10px;
     text-align: right;
     color: white;
-    animation: css 5s linear infinite;
+    /* animation: css 5s linear infinite; */
+    -webkit-animation: 4s linear 0s infinite alternate css;
+    animation: 4s linear 0s infinite alternate css;
 
 
 
@@ -178,7 +183,9 @@ p {
     padding: 10px;
     text-align: right;
     color: white;
-    animation: phpmysql 5s linear infinite;
+    /* animation: phpmysql 5s linear infinite; */
+    -webkit-animation: 4s linear 0s infinite alternate php;
+    animation: 4s linear 0s infinite alternate php ;
 
 
 }
@@ -191,7 +198,11 @@ p {
     border-radius: 15px;
     padding: 10px;
     text-align: right;
-    animation: phpmysql 5s linear infinite;
+    /* animation: phpmysql 5s linear infinite; */
+
+
+       -webkit-animation: 4s linear 0s infinite alternate phpmysql;
+          animation: 4s linear 0s infinite alternate phpmysql;
 
 }
 
@@ -204,6 +215,7 @@ p {
     to {
         width: 80%;
         box-shadow: 0 0 30px rgb(77, 255, 0);
+       
     }
 }
 
@@ -243,7 +255,7 @@ p {
 
 
 
-@keyframes boite {
+@keyframes php {
     from {
         width: 0%;
         box-shadow: 0 0 30px rgb(247, 16, 16);
@@ -313,17 +325,17 @@ p {
     align-items: center;
     background: black;
     position: fixed;
-    z-index: 100;
+    /* z-index: 100; */
 }
 
 .lettre {
 
 
     color: gray;
-    font-size: 80px;
-    letter-spacing: 15px;
+    /* font-size: 80px;
+    letter-spacing: 15px; */
     margin-bottom: 150px;
-    animation: flash 1.2s linear infinite;
+    animation: flash 1.2s linear infinite;   
 }
 
 @keyframes flash {
